@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4a22bde1-e393-4c29-8724-f08ead983b64" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ryo/springboot_ms/access/AccessInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ryo/springboot_ms/access/AccessInterceptor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AccessInterceptor.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AccessInterceptor.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ryo/springboot_ms/access/AccessInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state relative-caret-position="133">
+              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -49,11 +50,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MiaoshaController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MiaoshaController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ryo/springboot_ms/controller/MiaoshaController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
+            <state relative-caret-position="76">
               <caret line="118" column="23" selection-start-line="118" selection-start-column="23" selection-end-line="118" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserContext.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ryo/springboot_ms/access/UserContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -146,9 +156,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ryo/springboot_ms/rabbitmq/MQConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ryo/springboot_ms/rabbitmq/MQReceiver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ryo/springboot_ms/rabbitmq/MQSender.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ryo/springboot_ms/access/UserContext.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ryo/springboot_ms/access/AccessLimit.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ryo/springboot_ms/access/AccessInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ryo/springboot_ms/config/UserArgumentResolver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ryo/springboot_ms/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ryo/springboot_ms/controller/SampleController.java" />
@@ -158,6 +166,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ryo/springboot_ms/controller/GoodsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ryo/springboot_ms/config/WebConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ryo/springboot_ms/access/UserContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ryo/springboot_ms/access/AccessInterceptor.java" />
       </list>
     </option>
   </component>
@@ -374,7 +384,7 @@
       <workItem from="1531313785297" duration="5267000" />
       <workItem from="1531323015326" duration="1086000" />
       <workItem from="1531324598127" duration="347000" />
-      <workItem from="1531395961257" duration="4902000" />
+      <workItem from="1531395961257" duration="6389000" />
     </task>
     <task id="LOCAL-00001" summary="基于springboot+redis缓存+rabbitmq的秒杀demo">
       <created>1531320786281</created>
@@ -394,7 +404,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38317000" />
+    <option name="totallyTimeSpent" value="39804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -418,10 +428,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32872927" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32872927" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32872927" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -546,7 +556,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ryo/springboot_ms/config/WebConfig.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ryo/springboot_ms/controller/UserController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ryo/springboot_ms/access/AccessLimit.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ryo/springboot_ms/access/UserContext.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ryo/springboot_ms/config/UserArgumentResolver.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ryo/springboot_ms/redis/GoodsKey.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ryo/springboot_ms/redis/RedisService.java" />
@@ -557,13 +566,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/goods_detail.htm" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ryo/springboot_ms/controller/GoodsController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ryo/springboot_ms/controller/OrderController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ryo/springboot_ms/access/AccessInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../Java/maven/repository/org/springframework/amqp/spring-amqp/2.0.4.RELEASE/spring-amqp-2.0.4.RELEASE.jar!/org/springframework/amqp/core/Queue.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -624,8 +626,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ryo/springboot_ms/controller/MiaoshaController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
+        <state relative-caret-position="76">
           <caret line="118" column="23" selection-start-line="118" selection-start-column="23" selection-end-line="118" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ryo/springboot_ms/access/UserContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ryo/springboot_ms/access/AccessInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
         </state>
       </provider>
     </entry>

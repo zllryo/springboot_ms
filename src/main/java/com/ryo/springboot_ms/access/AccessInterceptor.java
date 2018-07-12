@@ -21,6 +21,10 @@ import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 import com.alibaba.fastjson.JSON;
 
 
+/*
+*
+* 权限过滤
+* */
 @Service
 public class AccessInterceptor  extends HandlerInterceptorAdapter{
 	
